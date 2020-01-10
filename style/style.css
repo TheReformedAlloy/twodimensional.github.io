@@ -36,7 +36,7 @@ html, body {
 
 #intro {
     padding: 2rem;
-    background: url('/img/butterfly.jpg') no-repeat center;
+    background: url('/twodimensional.github.io/img/butterfly.jpg') no-repeat center;
     background-attachment: fixed;
     
 }
@@ -64,7 +64,7 @@ html, body {
 }
 
 #resources {
-    background: url('/img/freedom_slavery.jpg') no-repeat top;
+    background: url('/twodimensional.github.io/img/freedom_slavery.jpg') no-repeat top;
     background-attachment: fixed;
     background-size: contain;
     
@@ -84,7 +84,7 @@ html, body {
     width: 90%;
     margin-bottom: 4rem;
     border-radius: 3px;
-    background: url('/img/logo.png') no-repeat bottom 1rem left 1rem hsl(205, 30%, 97%, 75%);
+    background: url('/twodimensional.github.io/img/logo.png') no-repeat bottom 1rem left 1rem hsl(205, 30%, 97%, 75%);
     background-size: 10%;
     
     text-align: center;
