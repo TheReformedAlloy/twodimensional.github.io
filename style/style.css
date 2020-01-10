@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    
+    font-family: 'Open Sans';
+    color: hsl(205, 30%, 10%);
+}
+
+.content {
+    box-shadow: 0 0 3rem black inset;
+    
+    box-sizing: border-box;
+}
+
+.smallDivider {
+    background-color: hsl(205, 30%, 95%);
+}
+
+.button {
+    
+    padding: .5rem;
+    background-color: hsl(205, 75%, 60%);
+    border: none;
+    border-radius: 30px;
+    
+    font-size: 2em;
+    text-decoration: none;
+    color: hsl(205, 30%, 95%);
+    
+    transition: background-color 250ms, color 250ms;
+}
+
+.button:hover {
+    background-color: hsl(205, 50%, 40%);
+    color: hsl()
+}
+
+#intro {
+    padding: 2rem;
+    background: url('/img/butterfly.jpg') no-repeat center;
+    background-attachment: fixed;
+    
+}
+
+#intro > * {
+    margin: 0;
+}
+
+#intro #title {
+    font-size: 4rem;
+    font-weight: lighter;
+    color: hsl(205, 70%, 5%);
+}
+
+#intro #botText {
+    position: absolute;
+    bottom: 0;
+    
+    font-weight: lighter;
+    color: hsl(205, 75%, 25%);
+}
+
+#intro #botText h2 {
+    
+}
+
+#resources {
+    background: url('/img/freedom_slavery.jpg') no-repeat top;
+    background-attachment: fixed;
+    background-size: contain;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    padding: 2rem;
+    background-size: contain;
+    
+    
+    min-height: 250px;
+}
+
+#media {
+    width: 90%;
+    margin-bottom: 4rem;
+    border-radius: 3px;
+    background: url('/img/logo.png') no-repeat bottom 1rem left 1rem hsl(205, 30%, 97%, 75%);
+    background-size: 10%;
+    
+    text-align: center;
+}
+
+
+#socials {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-bottom: 100px;
+}
+
+#socials img {
+    width: 4em;
+}
+
+#socials div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    #socials {
+        flex-direction: column;
+    }
+}
+
+#resources h1 {
+    font-size: 2rem;
+}
+
+.display-case > div {
+    height: 90%;
+    width: 30%;
+    
+    background: hsl(205, 30%, 95%, 75%);
+}
+
+footer {
+    text-align: center;
+    
+    color: hsl(205, 30%, 85%);
+}
