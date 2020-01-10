@@ -17,7 +17,7 @@ html, body {
 
 .button {
     
-    padding: .5rem;
+    padding: 1rem;
     background-color: hsl(205, 75%, 60%);
     border: none;
     border-radius: 30px;
@@ -36,8 +36,9 @@ html, body {
 
 #intro {
     padding: 2rem;
-    background: url('/twodimensional.github.io/img/butterfly.jpg') no-repeat center;
-    background-attachment: fixed;
+    background: url('/img/butterfly.jpg') no-repeat bottom 30% center;
+    background-size: auto 60%;
+/*    background-attachment: fixed;*/
     
 }
 
@@ -46,9 +47,16 @@ html, body {
 }
 
 #intro #title {
+    display: flex;
+    align-items: center;
     font-size: 4rem;
     font-weight: lighter;
     color: hsl(205, 70%, 5%);
+}
+
+#intro #title img {
+    width: 4rem;
+    height: 4rem;
 }
 
 #intro #botText {
@@ -59,14 +67,8 @@ html, body {
     color: hsl(205, 75%, 25%);
 }
 
-#intro #botText h2 {
-    
-}
-
 #resources {
-    background: url('/twodimensional.github.io/img/freedom_slavery.jpg') no-repeat top;
-    background-attachment: fixed;
-    background-size: contain;
+    background: url('/img/freedom_slavery.jpg') no-repeat top;
     
     display: flex;
     flex-direction: column;
@@ -74,7 +76,6 @@ html, body {
     align-items: center;
     
     padding: 2rem;
-    background-size: contain;
     
     
     min-height: 250px;
@@ -84,7 +85,7 @@ html, body {
     width: 90%;
     margin-bottom: 4rem;
     border-radius: 3px;
-    background: url('/twodimensional.github.io/img/logo.png') no-repeat bottom 1rem left 1rem hsl(205, 30%, 97%, 75%);
+    background: url('/img/logo.png') no-repeat bottom 1rem left 1rem hsl(205, 30%, 97%, 75%);
     background-size: 10%;
     
     text-align: center;
@@ -110,12 +111,6 @@ html, body {
     margin: 1em;
 }
 
-@media only screen and (max-width: 600px) {
-    #socials {
-        flex-direction: column;
-    }
-}
-
 #resources h1 {
     font-size: 2rem;
 }
@@ -131,4 +126,20 @@ footer {
     text-align: center;
     
     color: hsl(205, 30%, 85%);
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 10px;
+    }
+    .button {
+        padding: 2rem;
+        
+        font-weight: bold;
+    }
+    #socials {
+        flex-direction: column;
+        
+        font-size: 1.75rem;
+    }
 }
