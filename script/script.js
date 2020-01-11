@@ -26,3 +26,4 @@ const resizePage = () => {
 resizePage();
 
 window.onresize = resizePage;
+console.log(window.location.pathname);
