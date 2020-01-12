@@ -36,7 +36,7 @@ html, body {
 
 #intro {
     padding: 2rem;
-    background: url('img/butterfly.png') no-repeat bottom 30% center;
+    background: url('../img/butterfly.png') no-repeat bottom 30% center;
     background-size: auto 60%;
 /*    background-attachment: fixed;*/
     
@@ -68,7 +68,7 @@ html, body {
 }
 
 #resources {
-    background: url('img/freedom_slavery.png') no-repeat top;
+    background: url('../img/freedom_slavery.png') no-repeat top;
     
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ html, body {
     width: 90%;
     margin-bottom: 4rem;
     border-radius: 3px;
-    background: url('img/logo.png') no-repeat bottom 1rem left 1rem hsl(205, 30%, 97%, 75%);
+    background: url('../img/logo.png') no-repeat bottom 1rem left 1rem hsl(205, 30%, 97%, 75%);
     background-size: 10%;
     
     text-align: center;
