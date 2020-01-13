@@ -6,12 +6,22 @@ html, body {
 }
 
 .content {
-    box-shadow: 0 0 3rem black inset;
-    
     box-sizing: border-box;
+    
+    min-height: 100vh;
+    box-shadow: 0 0 .5rem black inset;
+}
+
+.smallContent {
+    min-height: 25vh;
+}
+
+.largeDivider {
+    min-height: 25vh;
 }
 
 .smallDivider {
+    min-height: 12.5vh;
     background-color: hsl(205, 30%, 95%);
 }
 
@@ -34,41 +44,9 @@ html, body {
     color: hsl()
 }
 
-#intro {
-    padding: 2rem;
-    background: url('../img/butterfly.png') no-repeat bottom 30% center;
-    background-size: auto 60%;
-/*    background-attachment: fixed;*/
-    
-}
-
-#intro > * {
-    margin: 0;
-}
-
-#intro #title {
-    display: flex;
-    align-items: center;
-    font-size: 4rem;
-    font-weight: lighter;
-    color: hsl(205, 70%, 5%);
-}
-
-#intro #title img {
-    width: 4rem;
-    height: 4rem;
-}
-
-#intro #botText {
-    position: absolute;
-    bottom: 0;
-    
-    font-weight: lighter;
-    color: hsl(205, 75%, 25%);
-}
-
 #resources {
     background: url('../img/freedom_slavery.png') no-repeat top;
+    background-size: auto 35%;
     
     display: flex;
     flex-direction: column;
@@ -76,9 +54,6 @@ html, body {
     align-items: center;
     
     padding: 2rem;
-    
-    
-    min-height: 250px;
 }
 
 #media {
@@ -123,8 +98,9 @@ html, body {
 }
 
 footer {
-    text-align: center;
+    height: 5vh;
     
+    text-align: center;
     color: hsl(205, 30%, 85%);
 }
 
